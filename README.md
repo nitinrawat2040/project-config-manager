@@ -24,3 +24,7 @@ node project.js show <name>
 - Used a JSON file for storage to avoid unnecessary databases.
 - Used only Node.js core modules to demonstrate fundamental understanding.
 - Designed explicit commands (add, list, show) for clarity and usability.
+
+##Screenshots
+<img width="1365" height="721" alt="Screenshot 2026-01-18 123056" src="https://github.com/user-attachments/assets/bf0a92d8-dd4d-4232-bc2f-4594822afc24" />
+
