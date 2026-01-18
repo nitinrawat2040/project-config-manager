@@ -1,29 +1,25 @@
-# Project Config Manager (CLI)
+# 🚀 Project Config Manager (CLI)
 
-## Problem
+## ❓ Problem
 Managing multiple Node.js projects becomes difficult when start commands, ports, and paths differ. These details are easy to forget and are not managed by the operating system.
 
-## Solution
+## 💡 Solution
 A command-line utility that allows saving and retrieving project configurations quickly from the terminal.
 
-## Features
-- Add project configurations
-- Delete project configurations
-- List all projects
-- View project details
-- JSON-based local storage 
+## ✨ Features
+- ➕ Add project configurations
+- 🗑️ Delete project configurations
+- 📋 List all projects
+- 🔍 View project details
+- 🗄️ JSON-based local storage 
 
-## How to Run
+## ▶️ How to Run
+```bash
 node project.js add <name> --port <port> --cmd "<command>" --path "<path>"
 node project.js delete <name>
 node project.js list 
 node project.js show <name>
-
-## Design Decisions
-- Choose a command-line interface to keep the tool lightweight and fast.
-- Used a JSON file for storage to avoid unnecessary databases.
-- Used only Node.js core modules to demonstrate fundamental understanding.
-- Designed explicit commands (add, list, show) for clarity and usability.
+```
 
 ## Sample output (screenshots📸)
 <img width="1365" height="721" alt="Screenshot 2026-01-18 123056" src="https://github.com/user-attachments/assets/bf0a92d8-dd4d-4232-bc2f-4594822afc24" />
@@ -32,7 +28,7 @@ node project.js show <name>
 
 <img width="1354" height="709" alt="Screenshot 2026-01-18 123239" src="https://github.com/user-attachments/assets/7e18be0b-341a-4d98-9fee-a565fe045691" />
 
-## Demo Video
+## Demo Video🎥
 
-🎥 YouTube (Unlisted): https://youtu.be/JXeIWfw6qJU
+ YouTube (Unlisted): https://youtu.be/JXeIWfw6qJU
 
